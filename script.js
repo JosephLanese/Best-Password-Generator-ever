@@ -88,8 +88,8 @@ function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
 
-  console.log(passwordText)
-  
+passwordText.value = password;
+
   if(password) {
     passwordText = password;
   }
